@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-sc>
+        <title>membuat form</title>
+        <link rel="stylesheet" href="edit.css">
+    </head>
+    <body>
+        <h2 class="judul">FORM BIODATA</b></h2>
+    </body>
+        <body>
+        <form  action="#">
+            <fieldset class="fieldset">
+                <legend class="Biodata">BIODATA PRIBADI</legend>
+                <table class="form">
+                    <tr>
+                        <td> <label for="Nama Lengkap">Nama Lengkap:</label> </td>
+                        <td><input type="text" id="Nama Lengkap" name="Nama Lengkap"><br></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Nama Panggilan">Nama Panggilan:</label> </td>
+                        <td><input type="text" id="Nama Panggilan" name="Nama Panggilan"><br></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Nim">Nim:</label></td>
+                        <td><input type="number" id="Nim" name="Nim"><br></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="password">password:</label></td>
+                        <td> <input type="password" id="password" name="password"><br></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Email">Email:</label></td>
+                        <td> <input type="Email" id="Email"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ttl">Tanggal Lahir:</label></td>
+                        <td><input type="Date" id="ttl" name="tanggal lahir"><br></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="No.Telp/Hp">No.Telp/Hp:</label></td>
+                        <td> <input type="number" id="No.Telp/Hp" name="No.Telp/Hp"><br></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Alamat Domisili">Alamat Domisili:</label></td>
+                        <td>
+                             <textarea Name="alamat Domsili" id="alamat">--isi secara lengkap--</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Kode pos">Kode Pos:</label></td>
+                        <td> <input type="number" id="number" name="Kode Pos"><br></td>
+                    </tr>
+                    <tr>
+                        <td> prodi: </td>
+                        <td> <select name="prodi" id="prodi">
+                           <option value="#">--pilih salah satu--</option>
+                            <option value="Ilkom">S1 Ilmu Komputer</option>
+                            <option value="TI">S1 Teknologi Informasi </option>
+                            <option value="Kedokteran">S1 Kedokteran</option>
+                            <option value="Pertanian">S1 Pertanian</option>
+                            <option value="Teknik Informatika">S2 Teknik Informatika</option>
+                            </select>
+                    </tr>
+                    <tr>
+                        <td> <label for="College">College:</label></td>
+                        <td> <input type="College" id="College" name="College"><br></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="Religion">Religion:</label></td>
+                        <td> <input type="checkbox" id="customcheckbox">Islam</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input type="checkbox">Kristen</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input type="checkbox">Budha</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input type="checkbox">Tionghoa</td>
+                    </tr>
+                    <tr>
+                        <td><label for="Jenis kelamin">Jenis Kelamin:</label></td>
+                        <td><input type="radio" id="pria" name="Pria">Pria</td>
+                    </tr>
+                    <td></td>
+                    <td> <input type="radio">Wanita</td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Hobi yang disukai">Hobi yang disukai:</label></td>
+                        <td> <input type="checkbox">Olahraga</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input type="checkbox">Travelling</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input type="checkbox">Memasak</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input type="checkbox">Bernyanyi</td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Cerita Hobi">Cerita Hobi:</label></td>
+                        <td>
+                            <textarea Name="Cerita Hobi" id="Cerita Hobi">--ceritakan!--</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Makanan Favorite">Makanan Favorite:</label></td>
+                        <td> <input type="Text" id="Makanan favorite" name="Makanan Favorite"><br></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Lagu Favorite">Lagu Favorite:</label></td>
+                        <td> <input type="text" id="Lagu Favorite" name="Lagu Favorite"><br></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <form action="#">
+                <fieldset class="fieldset2">
+                    <legend class="Biodata2">BIODATA ORANGTUA</legend>
+                    <table class="form2">
+                        <tr>
+                            <td> <label for="Nama Lengkap Ayah">Nama Lengkap Ayah:</label></td>
+                            <td> <input type="text" id="Nama Lengkap Ibu" name="Nama Lengkap Ibu"><br></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="Tempat/Tanggal lahir">Tempat/Tanggal lahir:</label></td>
+                            <td> <input type="datetime-local" id="datetime-local" name="datetime-local"><br></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="Pekerjaan">Pekerjaan:</label></td>
+                            <td> <input type="text" id="text" name="Pekerjaan"><br></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="Pendidikan Terakhir">Pendidikan Terakhir:</label></td>
+                            <td> <input type="text" id="Pendidikan Terakhir" name="Pendidikan Terakhir"><br></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="No.Telp/Hp">No.Telp/Hp:</label></td>
+                            <td> <input type="number" id="No.Telp/Hp" name="No.Telp/Hp"><br></td>
+                        </tr>
+                        
+                    </table>
+                </fieldset>
+                <fieldset class="fieldset3">
+                    <table class="form3">
+                        <tr> 
+                            <td><label for="Nama Lengkap Ibu">Nama Lengkap Ibu:</label></td>
+                        <td> <input type="text" id="text" name="Nama Lengkap Ibu"><br></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="Tempat/Tanggal lahir">Tempat/Tanggal lahir:</label></td>
+                            <td> <input type="datetime-local" id="datetime-local" name="datetime-local"><br></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="Pekerjaan">Pekerjaan:</label></td>
+                            <td> <input type="text" id="text" name="Pekerjaan"><br></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="Pendidikan Terakhir">Pendidikan Terakhir:</label></td>
+                            <td> <input type="text" id="Pendidikan Terakhir" name="Pendidikan Terakhir"><br></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="No.Telp/Hp">No.Telp/Hp:</label></td>
+                            <td> <input type="number" id="No.Telp/Hp" name="No.Telp/Hp"><br></td>
+                        </tr>
+
+
+
+
+
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button type="submit" class="submit">save</button>
+                                <button type="reset" class="reset">cancel</button>
+                            </td>
+                        </tr>
+
+                    </table>
+                </table>
+                <input type="submit" value="Register" class="Register">
+                </fieldset>
+            </form>
+            <footer class="footer">
+                <CENTER><p>&copy; 2024 Myform. @Ilmaassh_<br>
+                </CENTER>
+            </footer>
+        </body>
+</html>
