@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7ec9c;
+}
+.judul {
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(125, 224, 76);
+}
+.Biodata{
+    background-color: azure;
+    font-size: large;
+}
+.fieldset{
+    background-color: cadetblue;
+}
+.form {
+    background-color: #e7ec9c;
+}
+  /* Gaya checkbox ketika dicentang */
+  input[id="customcheckbox"]:checked {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+  }
+  
+  .fieldset2 {
+    background-color: cadetblue;
+  }
+  .Biodata2 {
+    background-color: azure;
+    font-size: large;
+  }
+  .form2 {
+    background-color: #e7ec9c;
+  }
+  .fieldset3 {
+    background-color: cadetblue;
+  }
+  .form3 {
+    background-color: #e7ec9c;
+  }
+  .reset {
+    background-color: dimgray;
+  }
+  .submit {
+    background-color: dimgray;
+  }
+  .Register {
+    background-color: dimgray;
+  }
+  .footer {
+    background-color: rgb(125, 224, 76);
+}
+  
